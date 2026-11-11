@@ -1,0 +1,12 @@
+fn = input("Enter first name: ")
+ln = input("Enter last name: ")
+sec = input("Enter section: ")
+sub = input("Enter favorite subject: ")
+print(" ")
+
+print("Formatted output:")
+print("Name: ", fn, ln)
+print("Name code: ", fn.upper(), ln.upper())
+print("Section: ", sec.upper())
+print("Favorite subject: ", sub)
+print("Character count: ", len(fn + ln))
